@@ -2,7 +2,7 @@
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="b3edcd0a-6ed4-4e81-85e2-e5edc838fd56" manual="true">
     <element uuid="818b5b73-b741-4763-b4b1-e22cbfc2c180" manual="true">
-      <element uuid="4ce129c5-aeb4-4a89-ac8f-f54f2fd7f080" manual="true">
+      <element uuid="4ce129c5-aeb4-4a89-ac8f-f54f2fd7f080" manual="true" primaryLabelVisible="true">
         <element uuid="e81bd744-1e60-489a-8b03-9a0510e15ef6" manual="true">
           <bo>
             <seg>pvg</seg>
@@ -14,11 +14,14 @@
           <seg>c1</seg>
         </bo>
         <bendpoints>
-          <point x="633.0" y="611.0"/>
+          <point x="39.0" y="562.0"/>
+          <point x="39.0" y="604.0"/>
+          <point x="633.0" y="603.0"/>
         </bendpoints>
+        <primaryLabelPosition x="-42.0" y="-21.0"/>
       </element>
-      <element uuid="66e9ea04-7843-4d64-a657-a997c45a9836" manual="true">
-        <element uuid="72eb37d3-f121-4db0-a3e8-faeaf0ad4dda" manual="true">
+      <element uuid="66e9ea04-7843-4d64-a657-a997c45a9836" manual="true" primaryLabelVisible="true">
+        <element uuid="f6cc53fd-cbab-45e1-80a3-a84eaf505f62" manual="true">
           <bo>
             <seg>pvg</seg>
             <seg>Communication_Properties::Timing</seg>
@@ -29,30 +32,29 @@
           <seg>c2</seg>
         </bo>
         <bendpoints>
-          <point x="765.0" y="624.0"/>
+          <point x="455.0" y="492.0"/>
+          <point x="454.0" y="422.0"/>
         </bendpoints>
+        <primaryLabelPosition x="2.0" y="-66.0"/>
       </element>
-      <element uuid="5c577ed5-34c0-44f6-b80b-53f687d38941" manual="true">
-        <element uuid="f6294250-a079-4bca-805f-d9541c89e8f7" manual="true">
+      <element uuid="5c577ed5-34c0-44f6-b80b-53f687d38941" manual="true" primaryLabelVisible="true">
+        <element uuid="d0766353-ac6a-4e0d-9ee6-190271c38ddc" manual="true">
           <bo>
-            <seg>tag</seg>
-            <seg>unidirectional</seg>
+            <seg>pvg</seg>
+            <seg>Communication_Properties::Timing</seg>
           </bo>
         </element>
         <bo>
           <seg>connection</seg>
           <seg>c3</seg>
         </bo>
-        <bendpoints>
-          <point x="81.0" y="191.0"/>
-          <point x="81.0" y="351.0"/>
-        </bendpoints>
+        <primaryLabelPosition y="-34.0"/>
       </element>
-      <element uuid="6455a544-e828-4883-8637-19caee6e13c5" manual="true">
-        <element uuid="03cfa66a-1540-47bd-b075-5b66deec9580" manual="true">
+      <element uuid="6455a544-e828-4883-8637-19caee6e13c5" manual="true" primaryLabelVisible="true">
+        <element uuid="fa0f0828-2c8a-4dcc-b809-8f451e8c2a56" manual="true">
           <bo>
-            <seg>tag</seg>
-            <seg>unidirectional</seg>
+            <seg>pvg</seg>
+            <seg>Communication_Properties::Timing</seg>
           </bo>
         </element>
         <bo>
@@ -60,11 +62,12 @@
           <seg>c4</seg>
         </bo>
         <bendpoints>
-          <point x="452.0" y="352.0"/>
-          <point x="453.0" y="263.0"/>
+          <point x="452.0" y="272.0"/>
+          <point x="453.0" y="192.0"/>
         </bendpoints>
+        <primaryLabelPosition x="5.0" y="-62.0"/>
       </element>
-      <element uuid="ffa486ce-7f0a-4d4b-beb9-ea7f763cb0d0" manual="true">
+      <element uuid="ffa486ce-7f0a-4d4b-beb9-ea7f763cb0d0" manual="true" primaryLabelVisible="true">
         <element uuid="6731739b-13bf-4c30-8a87-5044aa015ec2" manual="true">
           <bo>
             <seg>pvg</seg>
@@ -76,9 +79,23 @@
           <seg>c5</seg>
         </bo>
         <bendpoints>
-          <point x="1156.0" y="192.0"/>
-          <point x="1154.0" y="623.0"/>
+          <point x="1109.0" y="142.0"/>
+          <point x="1105.0" y="572.0"/>
         </bendpoints>
+        <primaryLabelPosition x="-32.0" y="-45.0"/>
+      </element>
+      <element uuid="a17ad6ab-1354-418f-bb36-129917d17bfe" manual="true" primaryLabelVisible="true">
+        <element uuid="8da0fb77-514b-4779-9193-2d19a03b8aa5" manual="true">
+          <bo>
+            <seg>pvg</seg>
+            <seg>Communication_Properties::Timing</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>c6</seg>
+        </bo>
+        <primaryLabelPosition x="-19.0" y="-31.0"/>
       </element>
       <element uuid="f46c8eee-817d-4f2f-bdec-8305079393a9" manual="true">
         <bo>
@@ -90,11 +107,11 @@
         </bendpoints>
       </element>
       <element uuid="20ac9243-52ee-4449-a316-cee90519cac4" manual="true">
-        <element uuid="b61a90e3-663c-4c9a-b34e-ba46c2d39d4e" manual="true">
-          <element uuid="02c423b3-832b-480c-ad58-d61304f5e51e" manual="true">
+        <element uuid="85240279-c0bd-4789-ab1c-95d92fcf800b" manual="true" primaryLabelVisible="true">
+          <element uuid="591e7bbf-aab9-468b-b257-0038e3a3e8c9" manual="true">
             <bo>
-              <seg>pvg</seg>
-              <seg>Communication_Properties::Timing</seg>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
             </bo>
           </element>
           <bo>
@@ -102,11 +119,29 @@
             <seg>c1</seg>
           </bo>
           <bendpoints>
-            <point x="853.0" y="511.0"/>
+            <point x="588.0" y="423.0"/>
+            <point x="588.0" y="262.0"/>
           </bendpoints>
+          <primaryLabelPosition x="-33.0" y="-29.0"/>
         </element>
-        <element uuid="1228d991-d9ac-4c5a-bdb2-b315bb58701f" manual="true">
+        <element uuid="1228d991-d9ac-4c5a-bdb2-b315bb58701f" manual="true" primaryLabelVisible="true">
           <element uuid="7a39a17a-94ef-4a06-bf79-3c388758560b" manual="true">
+            <bo>
+              <seg>pvg</seg>
+              <seg>Communication_Properties::Timing</seg>
+            </bo>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c2</seg>
+          </bo>
+          <bendpoints>
+            <point x="634.0" y="392.0"/>
+          </bendpoints>
+          <primaryLabelPosition x="-5.0" y="-38.0"/>
+        </element>
+        <element uuid="35a1e358-4bbf-4dc2-975e-cbe06bbc3496" manual="true" primaryLabelVisible="true">
+          <element uuid="63551c0c-11b8-4dc2-b8e7-8e31e183945c" manual="true">
             <bo>
               <seg>pvg</seg>
               <seg>Communication_Properties::Timing</seg>
@@ -116,9 +151,30 @@
             <seg>connection</seg>
             <seg>c3</seg>
           </bo>
+          <bendpoints>
+            <point x="998.0" y="393.0"/>
+            <point x="1000.0" y="272.0"/>
+          </bendpoints>
+          <primaryLabelPosition x="2.0" y="20.0"/>
         </element>
-        <element uuid="26ee60a8-2970-408f-a96e-999c43d8fcfc" manual="true">
-          <element uuid="2d012a1c-c192-4dd8-ae66-d0750ef0dc1b" manual="true">
+        <element uuid="a490df9a-5da0-4e15-b403-a0150c664a93" manual="true" primaryLabelVisible="true">
+          <element uuid="bb4ccde7-b439-4311-bcee-1e0e0e0ad690" manual="true">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c4</seg>
+          </bo>
+          <bendpoints>
+            <point x="1022.0" y="163.0"/>
+          </bendpoints>
+          <primaryLabelPosition x="-27.0" y="-23.0"/>
+        </element>
+        <element uuid="f39b386b-9123-4030-8851-0146a5f47271" manual="true" primaryLabelVisible="true">
+          <element uuid="964be0df-e8de-412d-8efb-600ea0f2e182" manual="true">
             <bo>
               <seg>tag</seg>
               <seg>unidirectional</seg>
@@ -129,77 +185,39 @@
             <seg>c5</seg>
           </bo>
           <bendpoints>
-            <point x="1019.0" y="462.0"/>
-            <point x="1021.0" y="333.0"/>
+            <point x="521.0" y="192.0"/>
+            <point x="609.0" y="192.0"/>
+            <point x="610.0" y="211.0"/>
           </bendpoints>
-        </element>
-        <element uuid="35a1e358-4bbf-4dc2-975e-cbe06bbc3496" manual="true">
-          <element uuid="63551c0c-11b8-4dc2-b8e7-8e31e183945c" manual="true">
-            <bo>
-              <seg>pvg</seg>
-              <seg>Communication_Properties::Timing</seg>
-            </bo>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>c6</seg>
-          </bo>
-          <bendpoints>
-            <point x="520.0" y="451.0"/>
-            <point x="524.0" y="307.0"/>
-          </bendpoints>
-        </element>
-        <element uuid="a490df9a-5da0-4e15-b403-a0150c664a93" manual="true">
-          <element uuid="bb4ccde7-b439-4311-bcee-1e0e0e0ad690" manual="true">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>c7</seg>
-          </bo>
-        </element>
-        <element uuid="f39b386b-9123-4030-8851-0146a5f47271" manual="true">
-          <element uuid="964be0df-e8de-412d-8efb-600ea0f2e182" manual="true">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>c8</seg>
-          </bo>
+          <primaryLabelPosition x="14.0" y="24.0"/>
         </element>
         <element uuid="c1f2a998-e3e5-44b1-883a-c636bd2308e5" manual="true" dockArea="right">
           <bo>
             <seg>feature</seg>
             <seg>ctrlOutput</seg>
           </bo>
-          <position x="520.2005271911621" y="30.0"/>
+          <position x="490.2005271911621" y="30.0"/>
         </element>
         <element uuid="c5718397-2a2f-490e-a129-6cfd914e2119" manual="true" dockArea="bottom">
           <bo>
             <seg>feature</seg>
             <seg>highTempFlag_in</seg>
           </bo>
-          <position x="30.0" y="376.0"/>
+          <position y="376.0"/>
         </element>
-        <element uuid="6bdf8c38-bf58-41d1-9ee9-56b33eb32532" manual="true" dockArea="bottom">
+        <element uuid="6bdf8c38-bf58-41d1-9ee9-56b33eb32532" manual="true" dockArea="left">
           <bo>
             <seg>feature</seg>
             <seg>temp_in</seg>
           </bo>
-          <position x="220.0" y="376.0"/>
+          <position y="310.0"/>
         </element>
         <element uuid="b5aed7ca-0789-4238-ac3c-8261b8e59955" manual="true" dockArea="left">
           <bo>
             <seg>feature</seg>
             <seg>thermalImageColor</seg>
           </bo>
-          <position y="100.0"/>
+          <position y="80.0"/>
         </element>
         <element uuid="4e2e58ed-86e8-4e4e-920a-6b2dbfede4b4" manual="true" primaryLabelVisible="false">
           <element uuid="5e4f91d4-4e1e-4adb-8951-d36c6318dcf2" manual="true" dockArea="right">
@@ -209,19 +227,19 @@
             </bo>
             <position x="230.2005271911621"/>
           </element>
-          <element uuid="bae30a96-fe8f-4a44-b9fc-587f75f3d167" manual="true" dockArea="left">
+          <element uuid="bae30a96-fe8f-4a44-b9fc-587f75f3d167" manual="true" dockArea="right">
             <bo>
               <seg>feature</seg>
               <seg>highTempFlag_in</seg>
             </bo>
-            <position y="95.0"/>
+            <position x="184.97915649414062" y="110.0"/>
           </element>
-          <element uuid="8838d1c4-ef4a-4fca-bf34-9dc06c5794b2" manual="true" dockArea="right">
+          <element uuid="8838d1c4-ef4a-4fca-bf34-9dc06c5794b2" manual="true" dockArea="left">
             <bo>
               <seg>feature</seg>
               <seg>temp_in</seg>
             </bo>
-            <position x="240.5651092529297" y="120.0"/>
+            <position y="100.0"/>
           </element>
           <element uuid="bc386926-41ac-4536-8721-a0684e48e6f7" manual="true" dockArea="left">
             <bo>
@@ -236,7 +254,7 @@
               <seg>ImgColor2dir</seg>
             </bo>
             <bendpoints>
-              <point x="807.0" y="264.0"/>
+              <point x="803.0" y="211.0"/>
             </bendpoints>
           </element>
           <element uuid="7d05fc4c-a6ee-4a71-9e63-4a022359766f" manual="true">
@@ -245,7 +263,8 @@
               <seg>tempFlag2dir</seg>
             </bo>
             <bendpoints>
-              <point x="807.0" y="307.0"/>
+              <point x="830.0" y="271.0"/>
+              <point x="832.0" y="238.0"/>
             </bendpoints>
           </element>
           <element uuid="01fc6c34-2851-4d12-911e-c3f5063e8786" manual="true">
@@ -254,8 +273,7 @@
               <seg>tempValue2dir</seg>
             </bo>
             <bendpoints>
-              <point x="888.0" y="330.0"/>
-              <point x="889.0" y="291.0"/>
+              <point x="773.0" y="263.0"/>
             </bendpoints>
           </element>
           <element uuid="50fe11e5-8cd5-4bea-83fd-c0452192a3ba" manual="true">
@@ -268,57 +286,23 @@
             <seg>subcomponent</seg>
             <seg>AgentThread</seg>
           </bo>
-          <position x="180.0" y="50.0"/>
+          <position x="150.0" y="50.0"/>
           <size width="300.0" height="180.0"/>
         </element>
-        <element uuid="0e3dc2be-9727-4d86-9d99-e7390ef0957a" manual="true" primaryLabelVisible="false">
-          <element uuid="ad8d7f2a-5a78-4b68-a6bd-68e93d2b24de" manual="true" dockArea="bottom">
-            <bo>
-              <seg>feature</seg>
-              <seg>temp_in</seg>
-            </bo>
-            <position x="30.0" y="76.0"/>
-          </element>
-          <element uuid="ea04266a-c829-4ea6-aaf2-2b1fbf0f510f" manual="true" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>temp_out</seg>
-            </bo>
-            <position x="152.4075584411621" y="40.0"/>
-          </element>
-          <element uuid="0144ca78-9947-43a2-9c81-a1b49406395c" manual="true">
-            <bo>
-              <seg>flow_specification</seg>
-              <seg>temp2dir</seg>
-            </bo>
-          </element>
-          <element uuid="9f7c92e7-3a6d-47e9-adef-c67175312dae" manual="true">
-            <bo>
-              <seg>tag</seg>
-              <seg>sc_type</seg>
-            </bo>
-          </element>
-          <bo>
-            <seg>subcomponent</seg>
-            <seg>TempSensorAcquiringThread</seg>
-          </bo>
-          <position x="300.0" y="260.0"/>
-          <size width="220.0" height="100.0"/>
-        </element>
         <element uuid="4775ec8e-9cdc-4912-bc93-bf0d9cf5c66a" manual="true" primaryLabelVisible="false">
-          <element uuid="4d57acee-6ade-4f5e-bfb0-75c2558b583d" manual="true" dockArea="bottom">
+          <element uuid="4d57acee-6ade-4f5e-bfb0-75c2558b583d" manual="true" dockArea="left">
             <bo>
               <seg>feature</seg>
               <seg>highTempFlag_in</seg>
             </bo>
-            <position x="30.0" y="76.0"/>
+            <position y="30.0"/>
           </element>
-          <element uuid="1b3cb7ce-c5a6-4f9b-babf-9585144532c6" manual="true" dockArea="left">
+          <element uuid="1b3cb7ce-c5a6-4f9b-babf-9585144532c6" manual="true" dockArea="right">
             <bo>
               <seg>feature</seg>
               <seg>highTempFlag_out</seg>
             </bo>
-            <position y="30.0"/>
+            <position x="136.82160186767578" y="30.0"/>
           </element>
           <element uuid="d6f35805-eec1-48ac-9fcb-028c5867f11f" manual="true">
             <bo>
@@ -334,38 +318,32 @@
           </element>
           <bo>
             <seg>subcomponent</seg>
-            <seg>ThermostateAcquiringThread</seg>
+            <seg>HighTempFlagCallBack</seg>
           </bo>
-          <position x="60.0" y="260.0"/>
-          <size width="228.0" height="100.0"/>
-        </element>
-        <element uuid="a6a3ee24-3340-4d96-886e-98b7db61595e" manual="true">
-          <bo>
-            <seg>tag</seg>
-            <seg>sc_type</seg>
-          </bo>
+          <position x="170.0" y="250.0"/>
+          <size width="260.0" height="100.0"/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>agent</seg>
         </bo>
-        <position x="410.0" y="70.0"/>
-        <size width="590.0" height="400.0"/>
+        <position x="640.0" y="50.0"/>
+        <size width="560.0" height="400.0"/>
       </element>
       <element uuid="a549dd3c-dbb8-476f-ac69-f625d8135acf" manual="true">
-        <element uuid="6297d756-a220-482d-ac11-18287dd23ea6" manual="true" dockArea="left">
+        <element uuid="6297d756-a220-482d-ac11-18287dd23ea6" manual="true" dockArea="right">
           <bo>
             <seg>feature</seg>
             <seg>image</seg>
           </bo>
-          <position y="50.0"/>
+          <position x="91.68489837646484" y="50.0"/>
         </element>
         <element uuid="5a496f9e-edb7-4e5b-813e-a31c442b57d1" manual="true">
           <bo>
             <seg>flow_specification</seg>
             <seg>imageGenerationFlow</seg>
           </bo>
-          <position x="50.0" y="82.0"/>
+          <position x="89.0" y="83.0"/>
         </element>
         <element uuid="8cec09e8-5389-41c2-a570-c1a9746923aa" manual="true">
           <bo>
@@ -377,8 +355,8 @@
           <seg>subcomponent</seg>
           <seg>cam</seg>
         </bo>
-        <position x="80.0" y="50.0"/>
-        <size width="160.0" height="100.0"/>
+        <position x="20.0" y="160.0"/>
+        <size width="140.0" height="110.0"/>
       </element>
       <element uuid="9e05da07-e345-475c-991a-c18a2233de59" manual="true">
         <element uuid="b63fd69e-2109-4172-88f2-28af38957835" manual="true" dockArea="right">
@@ -388,12 +366,12 @@
           </bo>
           <position x="50.1875" y="50.0"/>
         </element>
-        <element uuid="53638cd1-32aa-487f-bf9c-a14b28dd3d8e" manual="true">
+        <element uuid="4e1cb21e-a4fd-4080-9496-0f187aa2edea" manual="true">
           <bo>
             <seg>flow_specification</seg>
             <seg>ndf</seg>
           </bo>
-          <position x="55.0" y="79.0"/>
+          <position x="90.0" y="82.0"/>
         </element>
         <element uuid="997ae59b-567a-4a67-8987-5be2c48ed865" manual="true">
           <bo>
@@ -405,76 +383,124 @@
           <seg>subcomponent</seg>
           <seg>fsys</seg>
         </bo>
-        <position x="900.0" y="480.0"/>
+        <position x="1030.0" y="460.0"/>
         <size width="140.0" height="110.0"/>
       </element>
-      <element uuid="6270e016-b379-4926-bfed-06dd6099b55a" manual="true">
-        <bo>
-          <seg>subcomponent</seg>
-          <seg>ROS</seg>
-        </bo>
-        <position x="270.0" y="10.0"/>
-        <size width="86.0" height="35.0"/>
-      </element>
-      <element uuid="b22794ed-0ace-40dc-af75-0353db74caa2" manual="true">
-        <element uuid="1e853e7f-dba5-4321-97b9-4cf5a6f3ad6b" manual="true" dockArea="right">
-          <bo>
-            <seg>feature</seg>
-            <seg>highTempFlag</seg>
-          </bo>
-          <position x="32.772132873535156" y="50.0"/>
-        </element>
-        <element uuid="e296e429-e5c3-4813-a97a-efde870933c6" manual="true">
-          <bo>
-            <seg>flow_specification</seg>
-            <seg>highTempMeasureFlow</seg>
-          </bo>
-          <position x="75.0" y="83.0"/>
-        </element>
-        <element uuid="24c34129-0298-4a09-a0da-3ffe4a847be0" manual="true">
-          <bo>
-            <seg>tag</seg>
-            <seg>sc_type</seg>
-          </bo>
-        </element>
-        <bo>
-          <seg>subcomponent</seg>
-          <seg>therm</seg>
-        </bo>
-        <position x="220.0" y="470.0"/>
-        <size width="130.0" height="107.0"/>
-      </element>
-      <element uuid="6b119069-0f34-471b-aef3-2220a37f78ff" manual="true">
-        <element uuid="734b65fe-32ab-4044-a6a8-606dc6d81bd9" manual="true">
-          <element uuid="d46d6a7b-6924-4689-87e2-83c5fb8c0402" manual="true">
+      <element uuid="b931d788-7f4d-4160-bddc-88f016938980" manual="true">
+        <element uuid="f12deb31-4f32-4301-90fd-f9cdfe299040" manual="true" primaryLabelVisible="true">
+          <element uuid="01c81824-443c-4551-8231-f0d8a51837be" manual="true">
             <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
+              <seg>pvg</seg>
+              <seg>Communication_Properties::Timing</seg>
             </bo>
           </element>
           <bo>
             <seg>connection</seg>
             <seg>c1</seg>
           </bo>
+          <primaryLabelPosition x="-16.0" y="10.0"/>
         </element>
-        <element uuid="8d47ebc8-c12e-47f7-a12a-0b85f7e4d315" manual="true">
-          <element uuid="40a675b2-dda1-4008-a96a-4b84d2c6a8b8" manual="true">
+        <element uuid="25df3085-101e-401f-b714-29dfe76dd2d4" manual="true" primaryLabelVisible="true">
+          <element uuid="deac2780-994e-4646-8e33-0388ece9d44a" manual="true">
             <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
+              <seg>pvg</seg>
+              <seg>Communication_Properties::Timing</seg>
             </bo>
           </element>
           <bo>
             <seg>connection</seg>
             <seg>c2</seg>
           </bo>
+          <primaryLabelPosition x="-17.0" y="12.0"/>
+        </element>
+        <element uuid="8d28da09-71b8-4b43-90b5-38218f797898" manual="true" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>temp_in</seg>
+          </bo>
+          <position y="90.0"/>
+        </element>
+        <element uuid="64241096-437b-413b-b6b0-4d3aada2d3d5" manual="true" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>temp_out</seg>
+          </bo>
+          <position x="282.4075584411621" y="90.0"/>
+        </element>
+        <element uuid="8239ed50-5c3f-4bef-807d-d7870584d0f1" manual="true" primaryLabelVisible="false">
+          <element uuid="386d6ce3-e272-4522-bf33-fed7a828aa1d" manual="true" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>temp_in</seg>
+            </bo>
+            <position y="30.0"/>
+          </element>
+          <element uuid="a698df16-9bee-49bf-8182-44ccf67e1b9a" manual="true" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>temp_out</seg>
+            </bo>
+            <position x="144.4075584411621" y="30.0"/>
+          </element>
+          <element uuid="73f5ebcd-d170-40a2-965d-1d6c2a3b2975" manual="true">
+            <bo>
+              <seg>flow_specification</seg>
+              <seg>tempAcqui</seg>
+            </bo>
+          </element>
+          <element uuid="7350dcb0-60ef-4951-aed3-7c9e694b456f" manual="true">
+            <bo>
+              <seg>tag</seg>
+              <seg>sc_type</seg>
+            </bo>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>node</seg>
+          </bo>
+          <position x="70.0" y="60.0"/>
+          <size width="212.0" height="100.0"/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>temp_sensor_acquiring</seg>
+        </bo>
+        <position x="200.0" y="340.0"/>
+        <size width="350.0" height="210.0"/>
+      </element>
+      <element uuid="6b119069-0f34-471b-aef3-2220a37f78ff" manual="true" primaryLabelVisible="true">
+        <element uuid="734b65fe-32ab-4044-a6a8-606dc6d81bd9" manual="true" primaryLabelVisible="true">
+          <element uuid="ea804fd7-15d1-4c95-a92c-6ef07295e0b3" manual="true">
+            <bo>
+              <seg>pvg</seg>
+              <seg>Communication_Properties::Timing</seg>
+            </bo>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c1</seg>
+          </bo>
+          <primaryLabelPosition x="-16.0" y="8.0"/>
+        </element>
+        <element uuid="8d47ebc8-c12e-47f7-a12a-0b85f7e4d315" manual="true" primaryLabelVisible="true">
+          <element uuid="731e83af-20be-427c-8764-a1091c77cf5d" manual="true">
+            <bo>
+              <seg>pvg</seg>
+              <seg>Communication_Properties::Timing</seg>
+            </bo>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>c2</seg>
+          </bo>
+          <primaryLabelPosition x="-14.0" y="9.0"/>
         </element>
         <element uuid="ec514f84-9e93-4217-b7b2-f8994b6af903" manual="true" dockArea="right">
           <bo>
             <seg>feature</seg>
             <seg>color</seg>
           </bo>
-          <position x="279.1002597808838" y="90.0"/>
+          <position x="299.1002597808838" y="90.0"/>
         </element>
         <element uuid="38f1e0a9-0615-4a7d-b4a9-6c0f19818145" manual="true" dockArea="left">
           <bo>
@@ -512,38 +538,39 @@
           </element>
           <bo>
             <seg>subcomponent</seg>
-            <seg>ThermalImageProcessingThread</seg>
+            <seg>node</seg>
           </bo>
-          <position x="60.0" y="60.0"/>
+          <position x="80.0" y="60.0"/>
           <size width="201.0" height="96.0"/>
-        </element>
-        <element uuid="b76fd494-27e6-48a9-8a19-90fd48973612" manual="true">
-          <bo>
-            <seg>tag</seg>
-            <seg>sc_type</seg>
-          </bo>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>thermal_image_process</seg>
         </bo>
-        <position x="40.0" y="170.0"/>
-        <size width="320.0" height="210.0"/>
+        <position x="210.0" y="120.0"/>
+        <size width="340.0" height="210.0"/>
       </element>
       <element uuid="073a85df-68e3-48f1-9b96-664d9af4d8d6" manual="true">
-        <element uuid="6da0b484-5865-472a-98fd-36150f84deb7" manual="true" dockArea="left">
+        <element uuid="7f3794cb-aed0-4915-aa99-a89cfb820e21" manual="true" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>highTempFlag</seg>
+          </bo>
+          <position x="41.772132873535156" y="110.0"/>
+        </element>
+        <element uuid="6da0b484-5865-472a-98fd-36150f84deb7" manual="true" dockArea="right">
           <bo>
             <seg>feature</seg>
             <seg>temp</seg>
           </bo>
-          <position y="50.0"/>
+          <position x="97.35807418823242" y="40.0"/>
         </element>
         <element uuid="3dda4816-e1f6-44ce-b48b-2b6b354447e5" manual="true">
           <bo>
             <seg>flow_specification</seg>
             <seg>tempMeasureFlow</seg>
           </bo>
-          <position x="81.0" y="82.0"/>
+          <position x="89.0" y="72.0"/>
         </element>
         <element uuid="7d6a0155-4176-4652-89bb-177ea7234056" manual="true">
           <bo>
@@ -555,22 +582,22 @@
           <seg>subcomponent</seg>
           <seg>tsensor</seg>
         </bo>
-        <position x="740.0" y="480.0"/>
-        <size width="131.0" height="110.0"/>
+        <position x="10.0" y="390.0"/>
+        <size width="139.0" height="170.0"/>
       </element>
       <bo>
         <seg>classifier</seg>
         <seg>Drone.impl</seg>
       </bo>
-      <position x="20.0" y="40.0"/>
-      <size width="1110.0" height="630.0"/>
+      <position x="10.0" y="30.0"/>
+      <size width="1250.0" height="600.0"/>
     </element>
     <bo>
       <seg>package</seg>
       <seg>drone</seg>
     </bo>
-    <position x="50.0" y="20.0"/>
-    <size width="1140.0" height="690.0"/>
+    <position x="-140.0"/>
+    <size width="1270.0" height="640.0"/>
   </element>
   <config type="package" connectionPrimaryLabelsVisible="false">
     <enabledAadlProperties/>
